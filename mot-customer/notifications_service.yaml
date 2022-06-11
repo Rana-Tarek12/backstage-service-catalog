@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/notifications/devx-notifications-worker-cd
+  description: This is a service called notifications
+  name: notifications
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mot-customer
+  type: service

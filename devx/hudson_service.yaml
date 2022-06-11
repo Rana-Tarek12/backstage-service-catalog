@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/devops/hudson/hudson-cd
+  description: This is a service called hudson
+  name: hudson
+  tags:
+  - python-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: devx
+  type: service

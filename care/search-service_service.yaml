@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/care/search-service/search-service-cd
+  description: This is a service called search-service
+  name: search-service
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: care
+  type: service

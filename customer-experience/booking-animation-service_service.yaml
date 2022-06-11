@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/booking-animation-service/booking-animation-service-cd
+  description: This is a service called booking-animation-service
+  name: booking-animation-service
+  tags:
+  - java-service
+  - experience-impact-2
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

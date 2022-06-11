@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement-and-acquisition/captain-analytics-service/captain-analytics-service-cd
+  description: This is a service called captain-analytics-service
+  name: captain-analytics-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

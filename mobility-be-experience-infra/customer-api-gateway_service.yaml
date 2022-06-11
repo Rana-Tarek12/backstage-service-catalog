@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-platform/customer-api-gateway/customer-api-gateway-cd
+  description: This is a service called customer-api-gateway
+  name: customer-api-gateway
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

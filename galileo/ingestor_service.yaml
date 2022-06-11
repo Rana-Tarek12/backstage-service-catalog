@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/ingestor/ingestor-cd
+  description: This is a service called ingestor
+  name: ingestor
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: argus
+  description: argus System
+spec:
+  owner: argus
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: careemfood
+  description: careemfood Organization
+spec:
+  owner: devx
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cosmos
+  description: cosmos system
+spec:
+  owner: mobility-be-experience-infra

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/qe-service/tsi-qe-service-k8-cd
+  description: This is a service called qe-service
+  name: qe-service
+  tags:
+  - python-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: tsi-khi
+  type: service

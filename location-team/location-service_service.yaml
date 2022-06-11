@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/location-service/location-service-non-regional-cd
+  description: This is a service called location-service
+  name: location-service
+  tags:
+  - java-service
+  - offline
+spec:
+  lifecycle: production
+  owner: location-team
+  type: service

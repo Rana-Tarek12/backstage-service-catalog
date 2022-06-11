@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/internal-jobs/internal-jobs-qa-cd
+  description: This is a service called internal-jobs
+  name: internal-jobs
+  tags:
+  - python-service
+  - offline-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

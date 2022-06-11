@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-customer-engagement/customer-gmap-link/customer-gmap-link-cd
+  description: This is a service called customer-gmap-link
+  name: customer-gmap-link
+  tags:
+  - java-service
+  - offline-impact-3
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

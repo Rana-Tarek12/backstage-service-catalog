@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/kickstarter-team/playground-java-service/playground-java-service-cd
+  description: This is a service called playground-java-service
+  name: playground-java-service
+  tags:
+  - java-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: kickstarter-team
+  type: service

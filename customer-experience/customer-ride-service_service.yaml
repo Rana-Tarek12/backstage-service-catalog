@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/customer-ride-service/customer-ride-service-cd
+  description: This is a service called customer-ride-service
+  name: customer-ride-service
+  tags:
+  - golang-service
+  - experience-impact-2
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

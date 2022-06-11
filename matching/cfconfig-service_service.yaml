@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-matching/cfconfig-service/cfconfig-k8s-cd
+  description: This is a service called cfconfig-service
+  name: cfconfig-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: matching
+  type: service

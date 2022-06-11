@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/plex/supply-hdl-searcher/supply-hdl-searcher-cd
+  description: This is a service called supply-hdl-searcher
+  name: supply-hdl-searcher
+  tags:
+  - java-service
+  - low
+spec:
+  lifecycle: production
+  owner: experimentation
+  type: service

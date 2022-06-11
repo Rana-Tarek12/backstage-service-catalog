@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-core-experiences/customer-trip-report-service/customer-trip-report-service-cd
+  description: This is a service called customer-trip-report-service
+  name: customer-trip-report-service
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

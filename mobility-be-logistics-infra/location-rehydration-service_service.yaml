@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/location-rehydration-service/location-rehydration-service-cd
+  description: This is a service called location-rehydration-service
+  name: location-rehydration-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-logistics-infra
+  type: service

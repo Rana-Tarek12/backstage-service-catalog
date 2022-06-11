@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/amaken/amaken-service-cd
+  description: This is a service called amaken
+  name: amaken
+  tags:
+  - golang-service
+  - offline-impact
+spec:
+  lifecycle: production
+  owner: location-team
+  type: service

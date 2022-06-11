@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/supply-invoicing-service/supply-invoicing-service-qa-cd
+  description: This is a service called supply-invoicing-service
+  name: supply-invoicing-service
+  tags:
+  - java-service
+  - business-reliability-impact
+  - experience-impact
+  - offline-impact
+  - non-critical
+  - high
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

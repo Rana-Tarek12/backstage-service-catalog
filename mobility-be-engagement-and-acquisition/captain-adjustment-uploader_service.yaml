@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement/captain-adjustment-uploader/captain-adjustment-uploader-cd
+  description: This is a service called captain-adjustment-uploader
+  name: captain-adjustment-uploader
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

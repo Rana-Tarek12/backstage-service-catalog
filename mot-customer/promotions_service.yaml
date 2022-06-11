@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-customer-engagement/promotions/devx-promotions-cd
+  description: This is a service called promotions
+  name: promotions
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mot-customer
+  type: service

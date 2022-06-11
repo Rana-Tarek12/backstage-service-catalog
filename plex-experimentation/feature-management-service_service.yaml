@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/PMF/feature-management-service/feature-management-service-cd
+  description: This is a service called feature-management-service
+  name: feature-management-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: plex-experimentation
+  type: service

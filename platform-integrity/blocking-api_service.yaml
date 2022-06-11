@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/blocking-api/blocking-api-cd
+  description: This is a service called blocking-api
+  name: blocking-api
+  tags:
+  - golang-service
+  - high
+spec:
+  lifecycle: production
+  owner: platform-integrity
+  type: service

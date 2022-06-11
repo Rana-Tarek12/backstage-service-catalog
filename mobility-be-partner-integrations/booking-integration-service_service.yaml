@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-partner-integrations/booking-integration-service/booking-integration-service-k8s-cd
+  description: This is a service called booking-integration-service
+  name: booking-integration-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-partner-integrations
+  type: service

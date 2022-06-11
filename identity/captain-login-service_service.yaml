@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/identity/captain-login-service/captain-login-service-ecs-cd
+  description: This is a service called captain-login-service
+  name: captain-login-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: identity
+  type: service

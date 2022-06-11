@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/customer-3p-gateway/customer-3p-gateway-cd
+  description: This is a service called customer-3p-gateway
+  name: customer-3p-gateway
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

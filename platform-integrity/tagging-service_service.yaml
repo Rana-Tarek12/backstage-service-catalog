@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/tagging-service/tagging-service-cd
+  description: This is a service called tagging-service
+  name: tagging-service
+  tags:
+  - kotlin-service
+  - high
+spec:
+  lifecycle: production
+  owner: platform-integrity
+  type: service

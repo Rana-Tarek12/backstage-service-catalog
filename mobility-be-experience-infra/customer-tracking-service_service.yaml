@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/customer-tracking-service/customer-tracking-service-cd
+  description: This is a service called customer-tracking-service
+  name: customer-tracking-service
+  tags:
+  - java-service
+  - offline-impact-3
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

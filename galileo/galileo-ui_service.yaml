@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/galileo-ui/galileo-ui-cd
+  description: This is a service called galileo-ui
+  name: galileo-ui
+  tags:
+  - generic-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

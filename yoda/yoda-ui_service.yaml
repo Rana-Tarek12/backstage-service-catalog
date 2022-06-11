@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/Yoda/yoda-ui/yoda-ui-cd
+  description: This is a service called yoda-ui
+  name: yoda-ui
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: yoda
+  type: service

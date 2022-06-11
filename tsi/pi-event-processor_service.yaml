@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/pi-event-processor/pi-event-processor-cd
+  description: This is a service called pi-event-processor
+  name: pi-event-processor
+  tags:
+  - kotlin-service
+  - high
+spec:
+  lifecycle: production
+  owner: tsi
+  type: service

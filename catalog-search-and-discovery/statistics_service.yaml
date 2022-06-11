@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/careemfood/statistics/statistics-poc-cd
+  description: This is a service called statistics
+  name: statistics
+  tags:
+  - php-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: catalog-search-and-discovery
+  type: service

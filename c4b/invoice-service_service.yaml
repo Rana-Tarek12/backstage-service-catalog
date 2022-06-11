@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/invoice-service/invoice-service-cd
+  description: This is a service called invoice-service
+  name: invoice-service
+  tags:
+  - java-service
+  - low
+spec:
+  lifecycle: production
+  owner: c4b
+  type: service

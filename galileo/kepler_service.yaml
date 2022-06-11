@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/kepler/kepler-cd
+  description: This is a service called kepler
+  name: kepler
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

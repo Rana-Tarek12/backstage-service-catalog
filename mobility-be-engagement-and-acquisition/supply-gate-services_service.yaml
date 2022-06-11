@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement-and-acquisition/supply-gate-services/supply-gate-services-cd
+  description: This is a service called supply-gate-services
+  name: supply-gate-services
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

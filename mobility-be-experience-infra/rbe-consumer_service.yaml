@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/rbe-consumer/rbe-consumer-cd
+  description: This is a service called rbe-consumer
+  name: rbe-consumer
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

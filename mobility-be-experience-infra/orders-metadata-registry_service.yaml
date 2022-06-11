@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/orders-metadata-registry/orders-metadata-registry-cd
+  description: This is a service called orders-metadata-registry
+  name: orders-metadata-registry
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

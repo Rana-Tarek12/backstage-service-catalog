@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-partner-integrations/supplier-management-service/supplier-management-service-cd
+  description: This is a service called supplier-management-service
+  name: supplier-management-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

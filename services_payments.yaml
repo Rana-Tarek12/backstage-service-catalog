@@ -1,0 +1,40 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payments
+  description: |-
+    Handles payments part of mot services,  the integration point with cpay services
+  tags:
+    - php
+    - business-reliability-impact
+  annotations:
+    jira/project-key: MPAY
+    fossa.io/project-name: git@github.com:careemfood/payments.git
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/payments/payments-new-cd
+    sonarqube.org/project-key: payments
+    backstage.io/kubernetes-label-selector: "app=test-service-primary"
+    grafana/tag-selector: service-payment
+
+
+  links:
+    - url: https://github.com/careemfood/payments
+      title: Git Repo
+      icon: web
+    - url: https://confluence.careempartner.com/display/COM/Payments
+      title: Docs
+      icon: web
+    - url: https://cicdqa-sonarqube.careem-internal.com/dashboard?id=payments
+      title: Sonarqube
+      icon: web
+    - url: https://cicd-jenkins.careem-internal.com/job/generated-pipelines/job/mobility-be-billing-and-pricing/job/payments/view/payments-new-cd/
+      title: Service CD
+      icon: web
+    - url: https://cicd-jenkins.careem-internal.com/job/generated-pipelines/job/mobility-be-billing-and-pricing/job/payments/view/payments-workers-new-cd/
+      title: Workers CD
+      icon: web
+spec:
+  type: service
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  system: careemfood
+

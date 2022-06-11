@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-acquisition/supply-metadata-writer/supply-metadata-writer-cd
+  description: This is a service called supply-metadata-writer
+  name: supply-metadata-writer
+  tags:
+  - java-service
+  - critical
+spec:
+  lifecycle: production
+  owner: cas
+  type: service

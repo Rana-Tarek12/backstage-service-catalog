@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement-and-acquisition/lead-management-service/lead-management-service-new-cd
+  description: This is a service called lead-management-service
+  name: lead-management-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement/campaign-offline-generation/campaign-offline-generation-cd
+  description: This is a service called campaign-offline-generation
+  name: campaign-offline-generation
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

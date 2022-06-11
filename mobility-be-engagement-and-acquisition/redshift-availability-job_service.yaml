@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/captain-engagement/redshift-availability-job/redshift-availability-job-cd
+  description: This is a service called redshift-availability-job
+  name: redshift-availability-job
+  tags:
+  - java-service
+  - offline-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

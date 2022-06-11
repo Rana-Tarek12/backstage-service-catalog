@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/customer-config-service/customer-config-service-cd
+  description: This is a service called customer-config-service
+  name: customer-config-service
+  tags:
+  - golang-service
+  - experience-impact-2
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

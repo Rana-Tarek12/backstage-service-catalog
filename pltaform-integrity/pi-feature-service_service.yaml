@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/pi-feature-service/pi-feature-service-cd
+  description: This is a service called pi-feature-service
+  name: pi-feature-service
+  tags:
+  - kotlin-service
+  - high
+spec:
+  lifecycle: production
+  owner: pltaform-integrity
+  type: service

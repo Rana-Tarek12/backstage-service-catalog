@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/navigation-service/navigation-service-cd
+  description: This is a service called navigation-service
+  name: navigation-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: eta
+  type: service

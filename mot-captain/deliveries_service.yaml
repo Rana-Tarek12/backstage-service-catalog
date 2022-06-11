@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-core-experiences/deliveries/deliveries-new-cd
+  description: This is a service called deliveries
+  name: deliveries
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mot-captain
+  type: service

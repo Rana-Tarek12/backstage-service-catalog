@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/reliability/event-processor-service/event-processor-service-cd
+  description: This is a service called event-processor-service
+  name: event-processor-service
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

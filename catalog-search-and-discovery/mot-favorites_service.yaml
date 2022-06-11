@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/universal-search-catalog/mot-favorites/devx-mot-favorites-cd
+  description: This is a service called mot-favorites
+  name: mot-favorites
+  tags:
+  - php-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: catalog-search-and-discovery
+  type: service

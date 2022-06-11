@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/cash-in-service/cash-in-service-qa-cd
+  description: This is a service called cash-in-service
+  name: cash-in-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

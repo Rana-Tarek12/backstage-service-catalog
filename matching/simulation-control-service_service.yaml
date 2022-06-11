@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-matching/simulation-control-service/simulation-control-service-cd
+  description: This is a service called simulation-control-service
+  name: simulation-control-service
+  tags:
+  - java-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: matching
+  type: service

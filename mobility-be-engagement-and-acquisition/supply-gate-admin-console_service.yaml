@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/captain-supply/supply-gate-admin-console/supply-gate-admin-console-cd
+  description: This is a service called supply-gate-admin-console
+  name: supply-gate-admin-console
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

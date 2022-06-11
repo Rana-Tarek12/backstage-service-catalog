@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-customer-engagement/customer-ads-service/customer-ads-service-cd
+  description: This is a service called customer-ads-service
+  name: customer-ads-service
+  tags:
+  - python-service
+  - offline-impact-3
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

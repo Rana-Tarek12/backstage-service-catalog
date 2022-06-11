@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/care/genesys-service/genesys-service-cd
+  description: This is a service called genesys-service
+  name: genesys-service
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: care
+  type: service

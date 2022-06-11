@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-engagement-and-acquisition/captain-destination-filter/captain-destination-filter-cd
+  description: This is a service called captain-destination-filter
+  name: captain-destination-filter
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-engagement-and-acquisition
+  type: service

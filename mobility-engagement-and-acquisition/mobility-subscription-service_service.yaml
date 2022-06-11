@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-engagement-and-acquisition/mobility-subscription-service/mobility-subscription-service-cd
+  description: This is a service called mobility-subscription-service
+  name: mobility-subscription-service
+  tags:
+  - java-service
+  - critical
+spec:
+  lifecycle: production
+  owner: mobility-engagement-and-acquisition
+  type: service

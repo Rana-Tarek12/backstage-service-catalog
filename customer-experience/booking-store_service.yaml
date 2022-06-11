@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/booking-store/booking-store-cd
+  description: This is a service called booking-store
+  name: booking-store
+  tags:
+  - golang-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

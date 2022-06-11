@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/argus/argus-cloudwatch-exporter/argus-cloudwatch-exporter-mot-prod-cd
+  description: This is a service called argus-cloudwatch-exporter
+  name: argus-cloudwatch-exporter
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: argus
+  type: service

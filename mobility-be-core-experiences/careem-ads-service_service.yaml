@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-core-experiences/careem-ads-service/careem-ads-service-cd
+  description: This is a service called careem-ads-service
+  name: careem-ads-service
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-core-experiences
+  type: service

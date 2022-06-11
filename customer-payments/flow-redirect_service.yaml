@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-payments/flow-redirect/flow-redirect-cd
+  description: This is a service called flow-redirect
+  name: flow-redirect
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: customer-payments
+  type: service

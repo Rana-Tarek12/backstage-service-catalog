@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/captain-settlement-service/devx-captain-settlement-service-cd
+  description: This is a service called captain-settlement-service
+  name: captain-settlement-service
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-partner-integrations/taximeter-service/taximeter-service-qa-cd
+  description: This is a service called taximeter-service
+  name: taximeter-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-partner-integrations
+  type: service

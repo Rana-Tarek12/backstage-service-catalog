@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/kickstarter-team/playground-golang-service/playground-golang-service-cd
+  description: This is a service called playground-golang-service
+  name: playground-golang-service
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: kickstarter-team
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/ping-api-worker/ping-api-worker-bitbucket-cd
+  description: This is a service called ping-api-worker
+  name: ping-api-worker
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: cas
+  type: service

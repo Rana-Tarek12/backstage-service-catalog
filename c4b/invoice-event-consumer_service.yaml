@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/invoice-event-consumer/invoice-event-consumer-cd
+  description: This is a service called invoice-event-consumer
+  name: invoice-event-consumer
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: c4b
+  type: service

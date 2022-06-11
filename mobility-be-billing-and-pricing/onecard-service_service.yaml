@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/onecard-service/onecard-service-qa-cd
+  description: This is a service called onecard-service
+  name: onecard-service
+  tags:
+  - java-service
+  - business-reliability-impact
+  - experience-impact
+  - offline-impact
+  - non-critical
+  - high
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

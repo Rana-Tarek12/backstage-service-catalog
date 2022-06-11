@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/customer-radar-service/customer-radar-service-cd
+  description: This is a service called customer-radar-service
+  name: customer-radar-service
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-core-experiences
+  type: service

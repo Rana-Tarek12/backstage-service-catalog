@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/Yoda/yoda-management-api/yoda-management-api-cd
+  description: This is a service called yoda-management-api
+  name: yoda-management-api
+  tags:
+  - python-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: yoda
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/hdl-helper-be/hdl-helper-be-cd
+  description: This is a service called hdl-helper-be
+  name: hdl-helper-be
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

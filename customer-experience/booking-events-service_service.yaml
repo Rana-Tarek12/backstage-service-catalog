@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/customer-experience/booking-events-service/booking-events-service-cd
+  description: This is a service called booking-events-service
+  name: booking-events-service
+  tags:
+  - golang-service
+  - experience-impact-2
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

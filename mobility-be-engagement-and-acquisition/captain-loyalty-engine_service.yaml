@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement/captain-loyalty-engine/captain-loyalty-engine-cd
+  description: This is a service called captain-loyalty-engine
+  name: captain-loyalty-engine
+  tags:
+  - java-service
+  - business-reliability-impact
+  - experience-impact
+  - offline-impact
+  - non-critical
+  - high
+spec:
+  lifecycle: production
+  owner: mobility-be-engagement-and-acquisition
+  type: service

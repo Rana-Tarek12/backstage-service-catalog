@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-engagement/captain-availability-tracker/captain-availability-tracker-cd
+  description: This is a service called captain-availability-tracker
+  name: captain-availability-tracker
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-engagement-and-acquisition
+  type: service

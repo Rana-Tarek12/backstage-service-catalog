@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI-KHI/impostor-reporting-service/impostor-reporting-service-cd
+  description: This is a service called impostor-reporting-service
+  name: impostor-reporting-service
+  tags:
+  - java-service
+  - business-reliability-impact
+  - experience-impact
+  - offline-impact
+  - non-critical
+  - high
+spec:
+  lifecycle: production
+  owner: tsi-khi
+  type: service

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/DBA/maxscale/maindb-central-prod-cd
+  description: This is a service called maxscale
+  name: maxscale
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - critical
+spec:
+  lifecycle: production
+  owner: storage
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/sandbox/go-test-basic/go-test-basic-cd
+  description: This is a service called go-test-basic
+  name: go-test-basic
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: sandbox
+  type: service

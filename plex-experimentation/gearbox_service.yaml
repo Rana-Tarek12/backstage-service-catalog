@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/PMF/gearbox/gearbox-cd
+  description: This is a service called gearbox
+  name: gearbox
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - business-reliability-impact
+  - experience-impact
+  - offline-impact
+  - non-critical
+  - high
+spec:
+  lifecycle: production
+  owner: plex-experimentation
+  type: service

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-matching/matching-virtual-service/matching-virtual-service-k8s-cd
+  description: This is a service called matching-virtual-service
+  name: matching-virtual-service
+  tags:
+  - java-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: matching
+  type: service

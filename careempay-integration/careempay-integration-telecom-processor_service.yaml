@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/wallet/careempay-integration-telecom-processor/careempay-integration-telecom-processor-cd
+  description: This is a service called careempay-integration-telecom-processor
+  name: careempay-integration-telecom-processor
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: careempay-integration
+  type: service

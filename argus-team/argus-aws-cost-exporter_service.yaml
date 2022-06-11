@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/argus/argus-aws-cost-exporter/argus-aws-cost-exporter-cd
+  description: This is a service called argus-aws-cost-exporter
+  name: argus-aws-cost-exporter
+  tags:
+  - python-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: argus-team
+  type: service

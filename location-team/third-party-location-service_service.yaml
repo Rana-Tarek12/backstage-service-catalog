@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/third-party-location-service/third-party-location-service-cd
+  description: This is a service called third-party-location-service
+  name: third-party-location-service
+  tags:
+  - java-service
+  - critical
+spec:
+  lifecycle: production
+  owner: location-team
+  type: service

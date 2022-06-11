@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-acquisition/supply-metadata-reader/supply-metadata-reader-cd
+  description: This is a service called supply-metadata-reader
+  name: supply-metadata-reader
+  tags:
+  - java-service
+  - critical
+spec:
+  lifecycle: production
+  owner: cas
+  type: service

@@ -1,0 +1,101 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: create-devx2-blueprint-app-template
+  title: Create DevX2 Blueprint App Template
+  description: Create a repo with a skeleton Devx2 Blueprint related Configurations
+  tags:
+    - devx2
+spec:
+  owner: web@example.com
+  type: website
+  parameters:
+    - title: Provide some simple information
+      required:
+        - component_id
+        - owner
+        - repoName
+        - criticality
+        - stack
+      properties:
+        component_id:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:field: EntityNamePicker
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
+        owner:
+          title: Owner
+          type: string
+          description: Owner of the component
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+        repoName:
+          title: Repo Name
+          type: string
+          description: Repo Name to be created in Github Careem Org
+        criticality:
+          title: Criticality
+          type: array
+          description: Service criticality
+          items:
+            type: string
+            enum:
+              - critical
+              - non-critical
+          uniqueItems: true
+        stack:
+          title: Stack
+          type: array
+          description: Service stack
+          items:
+            type: string
+            enum:
+              - js
+              - go
+              - php
+              - java
+          uniqueItems: true
+
+  steps:
+    - id: template
+      name: Fetch Skeleton + Template
+      action: fetch:template
+      input:
+        url: ./skeleton
+        copyWithoutRender:
+          - .github/workflows/*
+        values:
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
+          destination: github.com?repo=${{ parameters.repoName }}&owner=careem
+          owner: ${{ parameters.owner }}
+
+    - id: publish
+      name: Publish
+      action: publish:github
+      input:
+        allowedHosts:
+          - github.com
+        description: This is ${{ parameters.component_id }}
+        repoUrl: github.com?repo=${{ parameters.repoName }}&owner=careem
+
+    - id: register
+      name: Register
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: "/catalog-info.yaml"
+
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}

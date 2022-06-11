@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/careemfood/location/location-cd
+  description: This is a service called location
+  name: location
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - offline-impact
+spec:
+  lifecycle: production
+  owner: mot-captain
+  type: service

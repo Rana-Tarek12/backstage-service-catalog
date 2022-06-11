@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/care/arbitration-service/arbitration-service-cd
+  description: This is a service called arbitration-service
+  name: arbitration-service
+  tags:
+  - java-service
+  - low
+spec:
+  lifecycle: production
+  owner: policies
+  type: service

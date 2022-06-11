@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/wallet/cpay-intg-order-service/cpay-intg-order-service-cd
+  description: This is a service called cpay-intg-order-service
+  name: cpay-intg-order-service
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: wallet
+  type: service

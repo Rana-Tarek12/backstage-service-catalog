@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-customer-engagement/promotion-service/promotion-service-cd
+  description: This is a service called promotion-service
+  name: promotion-service
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: promotions
+  type: service

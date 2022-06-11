@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/galileo-server/galileo-server-cd
+  description: This is a service called galileo-server
+  name: galileo-server
+  tags:
+  - golang-service
+  - critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

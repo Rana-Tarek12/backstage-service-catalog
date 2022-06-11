@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/catalog-search-and-discovery/mot-search-service/devx-mot-search-service-cd
+  description: This is a service called mot-search-service
+  name: mot-search-service
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: catalog-search-and-discovery
+  type: service

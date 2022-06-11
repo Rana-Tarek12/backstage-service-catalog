@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/booking-platform/booking-legacy-events-service/booking-legacy-events-service-cd
+  description: This is a service called booking-legacy-events-service
+  name: booking-legacy-events-service
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

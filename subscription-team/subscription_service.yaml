@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/loyalty/subscription/subscription-cd
+  description: This is a service called subscription
+  name: subscription
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: subscription-team
+  type: service

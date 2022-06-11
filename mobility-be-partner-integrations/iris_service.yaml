@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-partner-integrations/iris/new-iris-cd
+  description: This is a service called iris
+  name: iris
+  tags:
+  - golang-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-partner-integrations
+  type: service

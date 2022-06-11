@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/care/superapp-care/superapp-care-qa-cd
+  description: This is a service called superapp-care
+  name: superapp-care
+  tags:
+  - golang-service
+  - critical
+spec:
+  lifecycle: production
+  owner: contact-journey
+  type: service

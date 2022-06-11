@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-billing-and-pricing/captain-earning-worker/captain-earning-worker-qa-cd
+  description: This is a service called captain-earning-worker
+  name: captain-earning-worker
+  tags:
+  - java-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

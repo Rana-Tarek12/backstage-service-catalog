@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/gopher/gopher-cd
+  description: This is a service called gopher
+  name: gopher
+  tags:
+  - golang-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

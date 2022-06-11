@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/captain-payments/earning-dashboard/earning-dashboard-qa-cd
+  description: This is a service called earning-dashboard
+  name: earning-dashboard
+  tags:
+  - nodejs-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-billing-and-pricing
+  type: service

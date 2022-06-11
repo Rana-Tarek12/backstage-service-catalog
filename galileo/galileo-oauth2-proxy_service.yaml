@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/galileo/galileo-oauth2-proxy/galileo-oauth2-proxy-cd
+  description: This is a service called galileo-oauth2-proxy
+  name: galileo-oauth2-proxy
+  tags:
+  - generic-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: galileo
+  type: service

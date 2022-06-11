@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/TSI/pi-airflow/pi-airflow-webserver-cd
+  description: This is a service called pi-airflow
+  name: pi-airflow
+  tags:
+  - python-service
+  - low
+spec:
+  lifecycle: production
+  owner: platform-integrity
+  type: service

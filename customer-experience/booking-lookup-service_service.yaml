@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-core-experiences/booking-lookup-service/booking-lookup-service-cd
+  description: This is a service called booking-lookup-service
+  name: booking-lookup-service
+  tags:
+  - java-service
+  - experience-impact-2
+spec:
+  lifecycle: production
+  owner: customer-experience
+  type: service

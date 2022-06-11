@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/superapp-eng/launcher-backend/launcher-backend-new-cd
+  description: This is a service called launcher-backend
+  name: launcher-backend
+  tags:
+  - generic-service
+  - high
+spec:
+  lifecycle: production
+  owner: superapp-eng
+  type: service

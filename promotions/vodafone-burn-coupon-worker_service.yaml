@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-customer-engagement/vodafone-burn-coupon-worker/vodafone-burn-coupon-worker-cd
+  description: This is a service called vodafone-burn-coupon-worker
+  name: vodafone-burn-coupon-worker
+  tags:
+  - java-service
+  - business-reliability-impact-1
+spec:
+  lifecycle: production
+  owner: promotions
+  type: service

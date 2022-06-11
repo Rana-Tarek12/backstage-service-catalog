@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/careemfood/promotion-analytics-service/promotion-analytics-service-cd
+  description: This is a service called promotion-analytics-service
+  name: promotion-analytics-service
+  tags:
+  - golang-service
+  - experience-impact
+spec:
+  lifecycle: production
+  owner: mobility-engagement-and-acquisition
+  type: service

@@ -1,0 +1,158 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devx
+  description: The coolest team :D
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: 	devx@careem.com
+  children: []
+  members: [asamy, zhabib]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: argus
+  description: A cool team
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mobility-be-core-experiences
+  description: A cool team
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name:	mobility-be-experience-infra
+  description: A cool team
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mobility-be-billing-and-pricing
+  description: A cool team
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: asamy
+  annotations:
+    okta.com/email: ahmed.samy1@careem.com
+spec:
+  profile:
+    displayName: Ahmad Samy
+    email: ahmed.samy1@careem.com
+  memberOf: [devx]
+--- 
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: zhabib
+  annotations:
+    okta.com/email: zeeshan.habib@careem.com
+spec:
+  profile:
+    displayName: Zeeshan Habib
+    email: zeeshan.habib@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: shabbir
+  annotations:
+    okta.com/email: shabbir.akolawala@careem.com
+spec:
+  profile:
+    displayName: Shabbor Akolawala
+    email: shabbir.akolawala@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Arifur-man
+  annotations:
+    okta.com/email: arifur.aman@careem.com
+spec:
+  profile:
+    displayName: Arifur Aman
+    email: arifur.aman@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Ahmed-Elkolaly
+  annotations:
+    okta.com/email: ahmed.elkolaly@careem.com
+spec:
+  profile:
+    displayName: Ahmed Elkolaly
+    email: ahmed.elkolaly@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Hatim-Fakhruddin
+  annotations:
+    okta.com/email: hatim.fakhruddin@careem.com
+spec:
+  profile:
+    displayName: Hatim Fakhruddin
+    email: hatim.fakhruddin@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Marwan-Hefny
+  annotations:
+    okta.com/email: marwan.hefny@careem.com
+spec:
+  profile:
+    displayName: Marwan Hefny
+    email: marwan.hefny@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Tamar-Inbar
+  annotations:
+    okta.com/email: tamar.inbar@careem.com
+spec:
+  profile:
+    displayName: Tamar Inbar
+    email: tamar.inbar@careem.com
+  memberOf: [devx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elif
+  annotations:
+    okta.com/email: elif.kara@careem.com
+spec:
+  profile:
+    displayName: Elif Kara
+    email: elif.kara@careem.com
+  memberOf: [devx]
+

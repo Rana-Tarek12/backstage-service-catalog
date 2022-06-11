@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-matching/dispatch-service/new-dispatch-deployment-prod-cd
+  description: This is a service called dispatch-service
+  name: dispatch-service
+  tags:
+  - java-service
+  - critical
+spec:
+  lifecycle: production
+  owner: matching
+  type: service

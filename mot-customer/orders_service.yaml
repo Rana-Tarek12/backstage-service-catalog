@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-core-experiences/orders/orders-new-cd
+  description: This is a service called orders
+  name: orders
+  tags:
+  - java-service
+  - golang-service
+  - nodejs-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mot-customer
+  type: service

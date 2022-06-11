@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-experience-infra/config-service/config-service-cd
+  description: This is a service called config-service
+  name: config-service
+  tags:
+  - java-service
+  - high
+spec:
+  lifecycle: production
+  owner: sre
+  type: service

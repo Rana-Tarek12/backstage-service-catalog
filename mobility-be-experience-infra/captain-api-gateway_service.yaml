@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/captain/captain-api-gateway/captain-api-gateway-qa-cd
+  description: This is a service called captain-api-gateway
+  name: captain-api-gateway
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: mobility-be-experience-infra
+  type: service

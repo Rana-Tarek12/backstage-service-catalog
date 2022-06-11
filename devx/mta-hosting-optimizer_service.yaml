@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/devx/mta-hosting-optimizer/mta-hosting-optimizer-eb-platform-upgrade-cd
+  description: This is a service called mta-hosting-optimizer
+  name: mta-hosting-optimizer
+  tags:
+  - python-service
+  - non-critical
+spec:
+  lifecycle: production
+  owner: devx
+  type: service

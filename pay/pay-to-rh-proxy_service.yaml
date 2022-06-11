@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/wallet/pay-to-rh-proxy/pay-to-rh-proxy-cd
+  description: This is a service called pay-to-rh-proxy
+  name: pay-to-rh-proxy
+  tags:
+  - java-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: pay
+  type: service

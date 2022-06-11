@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: generated-pipelines/mobility-be-logistics-infra/google-trip-id-service/google-trip-id-service-cd
+  description: This is a service called google-trip-id-service
+  name: google-trip-id-service
+  tags:
+  - golang-service
+  - business-reliability-impact
+spec:
+  lifecycle: production
+  owner: maps-team
+  type: service
