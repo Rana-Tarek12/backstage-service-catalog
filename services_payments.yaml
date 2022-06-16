@@ -15,6 +15,7 @@ metadata:
     backstage.io/kubernetes-label-selector: "app=test-service-primary"
     grafana/tag-selector: service-payment
     github.com/project-slug: careem/payments
+    roadie-backstage-pull-requests/default-filter: careem/payments
 
 
   links:
