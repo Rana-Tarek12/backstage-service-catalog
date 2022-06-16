@@ -14,7 +14,7 @@ metadata:
     sonarqube.org/project-key: payments
     backstage.io/kubernetes-label-selector: "app=test-service-primary"
     grafana/tag-selector: service-payment
-    github.com/project-slug: git@github.com:careemfood/payments.git
+    github.com/project-slug: careemfood/payments
 
 
   links:
